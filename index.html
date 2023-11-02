@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+  <title>Frontend Mentor | 3-column preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      color:hsla(0, 0%, 100%, 0.75);
+      font-family: 'Lexend Deca', sans-serif;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    h1{
+      font-family: 'Big Shoulders Display', sans-serif;
+      font-size: 38px;
+      color: hsl(0, 0%, 95%);
+      text-transform: uppercase;
+    }
+    p1{
+      color: hsla(0, 0%, 100%, 0.75);
+      font-family: 'Lexend Deca', sans-serif;
+      font-size: 15px;
+    }
+    button{
+    background-color: hsl(0, 0%, 95%);
+    width: 140px;
+    height: 45px;
+    border-radius: 50px;
+    margin-left: 42px;
+    }
+    button:hover{
+      color: hsla(0, 0%, 100%, 0.75);
+      cursor:pointer;
+      border: 2px solid hsla(0, 0%, 100%, 0.75);
+    }
+  </style>
+</head>
+<body>
+<div class="container flex xs:flex-col xl:flex-row lg:flex-row justify-center align-middle mx-auto mt-[170px] ml-56">
+  <div class="bg-[#e38826] h-[500px] w-[300px]  xl:rounded-s-xl xl:rounded-e-none xl:rounded-t-none xl:rounded-tl-xl lg:rounded-s-xl lg:rounded-e-none lg:rounded-t-none lg:rounded-tl-xl md:rounded-s-xl md:rounded-e-none md:rounded-t-none md:rounded-tl-xl xs:rounded-s-xl xs:rounded-se-xl xs:rounded-b-none" >
+    <img src="icon-sedans.svg" alt="" class="ml-12 mt-12">
+    <h1 class="ml-12 mt-6">Sedans</h1>
+    <p class="w-[70%] mx-auto mt-6">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+      or on your next road trip.</p>
+      <button class="text-[#e38826] mt-[90px] hover:bg-[#e38826]">Learn More</button>
+  </div>
+  <div class="bg-[#006970] h-[500px] w-[300px]">
+    <img src="icon-suvs.svg" alt="" class="ml-12 mt-12">
+    <h1 class="ml-12 mt-6">SUVs</h1>
+    <p class="w-[75%] mx-auto mt-6">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+      and off-road adventures.</p>
+      <button class="text-[#006970] mt-[90px] hover:bg-[#006970]">Learn More</button>
+  </div>
+  <div class="bg-[#00403f] h-[500px] w-[300px] xl:rounded-ss-none xl:rounded-e-xl xl:rounded-b-xl xl:rounded-l-none md:rounded-ss-none md:rounded-e-xl md:rounded-b-xl md:rounded-l-none xs:rounded-ss-none xs:rounded-se- none xs:rounded-bl-xl xs:rounded-br-xl">
+    <img src="icon-luxury.svg" alt="" class="ml-12 mt-12">
+    <h1 class="ml-12 mt-6">Luxury</h1>
+    <p class="w-[78%] mx-auto mt-6">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+      rental and arrive in style.</p>
+      <button class="text-[#00403f] mt-[87px] ml-[53px] hover:bg-[#00403f]">Learn More</button>
+  </div>
+</div>
+
+
+  <div class="attribution xs:ml-24" >
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Shahnaz Memon</a>.
+  </div>
+</body>
+</html>
